@@ -11,10 +11,10 @@ $(document).ready(function() {
 
     if (total<=7) {
       $("#result").text("C#");
-    } else if (12>total>7) {
-      $("#result").text("JavaScript")
+    } else if (12>total && total>7) {
+      $("#result").text("JavaScript");
     } else {
-      $("#result").text("Phyton")
+      $("#result").text("Phyton");
     }
   });
 });
