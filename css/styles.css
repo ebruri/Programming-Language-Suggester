@@ -1,7 +1,15 @@
-.jumbotron {
-  background-color: rgb(199, 218, 211);
-}
-
 #language {
   display: none;
+}
+
+h1 {
+  color: rgb(49, 117, 134);
+}
+#result {
+  color: rgb(49, 117, 134);
+}
+
+body {
+  background-color: rgb(38, 88, 90);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

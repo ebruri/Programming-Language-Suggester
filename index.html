@@ -10,111 +10,115 @@
 <body>
   <div class="container">
     <div class="jumbotron my-4">
-      <h1>Programming Language Suggester</h1>
+      <div class="media">
+        <img src="img/hexagon.png" class="mr-3" style="max-width:10%" alt="A hexagon">
+        <div class="media-body">
+          <h1>Programming Language Suggester</h1>
+          <h5>What’s the Best Programming Language to Learn for You? Take this quiz to find out!</h5>
+        </div> 
+      </div>   
     </div>
-    <div class="radio">
-      <h4>How do you like your coffee?</h4>
-      <label>
-        <input type="radio" name="coffee" value="1">
-        With milk
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="coffee" value="2">
-        With sugar
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="coffee" value="3">
-        Dark
-      </label>
-    </div>
-    <div class="radio">
-      <h4>If you could visit one fictional world, where would you visit?</h4>
-      <label>
-        <input type="radio" name="fictional" value="1">
-        Westeros
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="fictional" value="2">
-        Middle Earth 
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="fictional" value="3">
-        The Wizarding World
-      </label>
-    </div>
-    <div class="radio">
-      <h4>What is the meaning of life?</h4>
-      <label>
-        <input type="radio" name="meaning" value="1">
-        42
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="meaning" value="2">
-        Pizza
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="meaning" value="3">
-        don't have time for that
-      </label>
-    </div>
-    <div class="radio">
-      <h4>If you could travel in time, what would you want to see?</h4>
-      <label>
-        <input type="radio" name="time" value="1">
-        The past
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="time" value="2">
-        The future
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="time" value="3">
-        There is enough in the present
-      </label>
-    </div>
-    <div class="radio">
-      <h4>Which pizza topping?</h4>
-      <label>
-        <input type="radio" name="pizza" value="1">
-        Peperoni
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="pizza" value="2">
-        Pinapple
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="pizza" value="3">
-        Mushroom
-      </label>
-    </div>
-    <button class="btn btn-secondary" id="submit">Submit</button>
-
-    <div id="language" class="card my-4" style="width:400px">
-      <img class="card-img-top" src="img/header.jpeg" alt="Card image">
+    <div class="card my-5">
       <div class="card-body">
-      <p class="card-text">According to our quiz you should learn <span id="result"></span>!</p>
-      </div>
-    </div>
+        <div class="radio mt-4">
+          <h4>How do you like your coffee?</h4>
+          <label>
+            <input type="radio" name="coffee" value="1">
+            With milk
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="coffee" value="2">
+            With sugar
+          </label>
+        </div>
+        <div class="radio mb-4">
+          <label>
+            <input type="radio" name="coffee" value="3">
+            Dark
+          </label>
+        </div>
+        <div class="radio">
+          <h4>If you could visit one fictional world, where would you visit?</h4>
+          <label>
+            <input type="radio" name="fictional" value="1">
+            Westeros
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fictional" value="2">
+            Middle Earth 
+          </label>
+        </div>
+        <div class="radio mb-4">
+          <label>
+            <input type="radio" name="fictional" value="3">
+            The Wizarding World
+          </label>
+        </div>
+        <div class="radio">
+          <h4>What is the meaning of life?</h4>
+          <label>
+            <input type="radio" name="meaning" value="1">
+            42
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meaning" value="2">
+            Pizza
+          </label>
+        </div>
+        <div class="radio mb-4">
+          <label>
+            <input type="radio" name="meaning" value="3">
+            Don't have time for that
+          </label>
+        </div>
+        <div class="radio">
+          <h4>If you could travel in time, what would you want to see?</h4>
+          <label>
+            <input type="radio" name="time" value="1">
+            The past
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="2">
+            The future
+          </label>
+        </div>
+        <div class="radio mb-4">
+          <label>
+            <input type="radio" name="time" value="3">
+            There is enough in the present
+          </label>
+        </div>
+        <div class="radio">
+          <h4>Which pizza topping?</h4>
+          <label>
+            <input type="radio" name="pizza" value="1">
+            Peperoni
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="pizza" value="2">
+            Pinapple
+          </label>
+        </div>
+        <div class="radio mb-4">
+          <label>
+            <input type="radio" name="pizza" value="3">
+            Mushroom
+          </label>
+        </div>
+        <button class="btn btn-secondary mb-5" id="submit">Submit</button>
+        <h5 id="language">Based on your answers <span id="result"></span> seems like a great fit.</h5>
+      </div>  
+    </div>  
   </div>
 </body>
 </html>
