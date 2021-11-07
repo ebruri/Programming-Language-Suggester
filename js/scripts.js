@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#submit").click(function() {
-    $('#radio-input').attr('checked',false);
+    $("#radio").attr('checked',false);
     const coffee = parseInt($("input:radio[name=coffee]:checked").val());
     const fictional = parseInt($("input:radio[name=fictional]:checked").val());
     const meaning = parseInt($("input:radio[name=meaning]:checked").val());

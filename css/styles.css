@@ -12,4 +12,5 @@ h1 {
 body {
   background-color: rgb(38, 88, 90);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0.9;
 }

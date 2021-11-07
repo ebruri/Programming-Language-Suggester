@@ -2,7 +2,7 @@
 
 #### By Ebru Rice
 
-#### A quiz that suggests which programming language to learn
+#### A quiz that suggests which programming language to learn.
 
 ## Technologies Used
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-This quiz helps you decide which programming laguage to learn. There are 5 questions with multiple choice to choose from. 
+This quiz helps you decide which programming laguage to learn. There are 5 multiple choice questions.  
 
 ## GitHub Pages
 
