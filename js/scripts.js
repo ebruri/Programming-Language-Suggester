@@ -7,7 +7,7 @@ $(document).ready(function() {
     const time = parseInt($("input:radio[name=time]:checked").val());
     const pizza = parseInt($("input:radio[name=pizza]:checked").val());
     const total = coffee + fictional + meaning + time + pizza;
-    const name = $("form#name").val();
+    
     $("#language").fadeIn();
     if (total<=7) {
       $("#result").text("C#");
