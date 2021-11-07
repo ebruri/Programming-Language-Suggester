@@ -16,7 +16,7 @@ This quiz helps you decide which programming laguage to learn. There are 5 multi
 
 ## GitHub Pages
 
-[Click here]() to check it out in GitHub pages.
+[Click here](https://ebruri.github.io/Programming-Language-Suggester/) to check it out in GitHub pages.
 
 ## Setup/Installation Requirements
 
